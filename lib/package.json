@@ -1,12 +1,31 @@
 {
-  "name": "lib",
+  "name": "@imrandil/csv_to_json",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple npm package for generating json file (.json) from CSV file.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "conversion",
+    ".json",
+    ".csv"
+  ],
+  "author": "Ali Imran Adil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMRANDIL/csv_to_json_npm_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IMRANDIL/csv_to_json_npm_package/issues"
+  },
+  "homepage": "https://github.com/IMRANDIL/csv_to_json_npm_package"
+  
 }
