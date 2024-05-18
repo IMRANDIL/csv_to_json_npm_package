@@ -1,6 +1,6 @@
 {
   "name": "@imrandil/csv_to_json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple npm package for generating json file (.json) from CSV file.",
   "main": "index.js",
   "directories": {

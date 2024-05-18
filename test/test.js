@@ -1,6 +1,6 @@
 const convertCSVtoJSON = require('../lib/index');
 
-const csvFilePath = '../creditcard.csv';
+const csvFilePath = './imran.csv';
 const jsonFilePath = 'temp.json';
 
 (async () => {
